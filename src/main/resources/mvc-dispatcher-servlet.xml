@@ -153,7 +153,7 @@
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="order" value="9"></property>
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
-        <property name="prefix" value="/WEB-INF/configs/jsps/"/>
+        <property name="prefix" value="/WEB-INF/jsps/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 
